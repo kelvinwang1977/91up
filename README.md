@@ -18,3 +18,12 @@ View your app in AI Studio: https://ai.studio/apps/345bca60-25d0-4fdd-ace5-fd03f
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## GitHub Pages
+
+This project is deployed with GitHub Actions using
+[.github/workflows/deploy.yml](D:\kelvin\VScode\91up\.github\workflows\deploy.yml).
+
+The custom domain is managed through `public/CNAME` so Vite includes it in the
+build output. Keep the domain value only in `public/CNAME` and do not add a
+second `CNAME` file at the repository root.
